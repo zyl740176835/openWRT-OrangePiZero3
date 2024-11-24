@@ -21,6 +21,11 @@ function git_sparse_clone() {
   mv -f $@ ../package
   cd .. && rm -rf $repodir
 }
+#lean的仓库
+git clone --depth=1 -b openwrt-23.05 https://github.com/coolsnowwolf/luci.git package/lean/luci
+git clone --depth=1 https://github.com/coolsnowwolf/telephony.git package/lean/telephony
+git clone --depth=1 https://github.com/coolsnowwolf/routing.git package/lean/routing
+git clone --depth=1 https://github.com/coolsnowwolf/packages.git package/lean/packages
 
 # 科学上网插件
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
