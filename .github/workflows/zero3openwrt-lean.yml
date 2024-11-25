@@ -1,4 +1,4 @@
-name: zero3 lean for OpenWrt
+name: zero3 lean  OpenWrt
 
 on:
   workflow_dispatch:
