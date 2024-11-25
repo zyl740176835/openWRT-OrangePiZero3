@@ -6,8 +6,8 @@ on:
     - cron: 0 17 * * *
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: openwrt-23.05
+  REPO_URL: https://github.com/orangepi-xunlong/openwrt
+  REPO_BRANCH: master
   CONFIG_FILE: configs/zero3.config
   EXTRA_CONFIG: configs/extra.config
   DIY_SCRIPT: diy-script.sh
