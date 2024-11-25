@@ -1,4 +1,4 @@
-name: zero3forOpenWrt
+name: zero3withOpenWrt
 
 on:
   workflow_dispatch:
